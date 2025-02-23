@@ -1,0 +1,66 @@
+1. hello world with modern I/O
+    Write a program that prints 'Hello, {name}' using std::cin and std::cout (avoid using namespace std;)
+
+2. temperature converter
+    Create a function that convers Celsius to Fahreheit using constexpr for compile-time calculations.
+
+3. Prime checker
+    Write a function bool is_prime(int n) that checks if a numer is prime. Using range-based loops to test multiple values.
+
+4. vector manipulation
+    Use std::vector to store 10 integers. Sort them with std::sort and reverse them with std::reverse
+
+5. file I/O with fstream
+    Read a text file, count the number of words, and write the result to a new file.
+
+IMTERMEDIATE LEVEL
+6. class with RAII
+    Create a Rectangle class with private width and height. Use constructors/destructors and a method area().
+
+7. Inheritance and polymorphism
+    Define a base Shape class with virtual double area() = 0. Derive Circle and Square classes.
+
+8. template function
+    Write a generic swap(T& a, T& b) function that swaps two values of any type.
+
+9. smart pointers
+    Create a class ResourceOwner that manages a dynamically allocated array using std::unique_ptr.
+
+10. Exception handling
+    Write a divide(float a, float b) function that throws std::invalid_argument if b is zero.
+
+11. lambda and algorithms
+    Use std::for_each with a lambda to print even numbers form a std::vector<int>.
+
+12. move semantics
+    Implement a string class with move constructor/assignment (ex: logging when moves occur).
+
+HARD LEVEL
+13. multithreading with <thread>
+    Create two threads: one prints "Hello", the other prints "World". Synchronize them to avoid garbled output.
+
+14. custom container with iterators
+    Implement a dynamic array class (like std::vector) with iterator support (begin/end, range-based loops).
+
+15. template metaprogramming
+    Write a compile-time factorial calculator using template recursion (constexpr).
+
+16. polymorphic wrappers
+    Use std::variant and std::visit to handle different shape types (eg: circle, rectangle) without inheritance.
+
+17. custom allocator
+    Create a memory pool allocator for std::vector<int> and benchmark it against the default allocator.
+
+18. concurrent queue
+    Build a thread-safe queue using std::mutex and std::condition_variable.
+
+19. project: banking system
+    Design classes for account, transaction and bank using STL container (eg: std::map for accounts)
+    Include feature like deposits, withdrawals, and transaction history.
+
+KEY MODERN C++ CONCEPTS TO USE 
+- auto, range-based for loops, nullptr.
+- smart pointers (unique_ptr, shared_ptr), move semantics.
+- lambdas, std::function and algorithms (<algorithms>).
+- constexpr, type traits (<type_traits), and variadic templates.
+- concurrency utilities (<thread>, <future>, <atomic>).
